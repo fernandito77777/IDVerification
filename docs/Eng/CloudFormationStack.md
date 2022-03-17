@@ -10,7 +10,7 @@
     ![](../../images/CloudFormationStack/3.png)
 
 4. In prepare template, choose `Template is ready` and click `Upload a template file`
-5. Download [this file](../../Files/auto-check-in-app.template) by right clicking the link and open it in a new tab. click raw button and right click the area. save it as `auto-check-in-app.template`. Please don't use `.txt` file. Then, choose the file that you have downloaded in CloudFormation AWS Console page.
+5. Download [this file](../../Files/auto-check-in-app.template) by right clicking the link and open it in a new tab. click raw button and right click the area. save it as `id-verification.template`. Please don't use `.txt` file. Then, choose the file that you have downloaded in CloudFormation AWS Console page.
 
     ![](../../images/CloudFormationStack/5-1.png)
 
@@ -20,7 +20,7 @@
 
     ![](../../images/CloudFormationStack/6.png)
 
-7. in stack name, fill it with `AutoCheckInAppStack` and click `Next`
+7. in stack name, fill it with `IDVerificationStack`, replace the registration bucket name prefix with `id-verification-register`, and replace the rekognition collection name as `id-verification-face-collection`. Finally, click `Next`
 
     ![](../../images/CloudFormationStack/7.png)
 
