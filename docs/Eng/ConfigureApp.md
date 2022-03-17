@@ -3,18 +3,18 @@
 1. On your computer, run the following command in your preferred directory to clone the application source code from GitHub
 
 ```
-git clone https://github.com/awslabs/auto-check-in-app.git
+git clone https://github.com/awslabs/auto-check-in-app.git IDVerificationApp
 ```
 
-2. open the folder `auto-check-in-app` using your favourite text editor. In this demo, I use Visual Studio Code
-3. After the code is cloned, navigate to the `auto-check-in-app/source/frontend` directory on your terminal. You might use this command `cd auto-check-in-app/source/frontend`
+2. open the folder `IDVerificationApp` using your favourite text editor. In this demo, I use Visual Studio Code
+3. After the code is cloned, navigate to the `IDVerificationApp/source/frontend` directory on your terminal. You might use this command `cd IDVerificationApp/source/frontend`
 
     ![](../../images/ConfigureApp/3.png)
 
 4. Run the following command `chmod +x register-operator.sh`
 5. open `register-operator.sh` file
 6. edit the `REGION` to `us-east-1`
-7. edit the `stack name` to `AutoCheckInAppStack` and save the file
+7. edit the `stack name` to `IDVerificationStack` and save the file
 
     ![](../../images/ConfigureApp/7.png)
 
