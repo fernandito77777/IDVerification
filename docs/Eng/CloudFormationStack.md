@@ -37,7 +37,7 @@ This will take a while to set up the stack.
 
     ![](../../images/CloudFormationStack/12.png)
 
-[BACK TO WORKSHOP GUIDE :house:](../../EnglishGuide.md)
+[BACK TO WORKSHOP GUIDE :house:](../../README.md)
 
 [CONTINUE TO NEXT GUIDE :arrow_right:](UploadImageS3.md)
 

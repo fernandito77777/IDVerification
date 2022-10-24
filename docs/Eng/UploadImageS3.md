@@ -12,7 +12,7 @@
 7. if the upload is correct, you can see the S3 bucket page just like this example below.
     ![](../../images/UploadImageS3/7.png)
 
-[BACK TO WORKSHOP GUIDE :house:](../../EnglishGuide.md)
+[BACK TO WORKSHOP GUIDE :house:](../../README.md)
 
 [CONTINUE TO NEXT GUIDE :arrow_right:](ConfigureApp.md)
 
