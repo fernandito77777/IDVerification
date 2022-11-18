@@ -174,7 +174,7 @@ Resources:
         Key: auto-check-in-app/v1.0.0/create-collection-lambda.zip
       Handler: function.lambda_handler
       Role: !GetAtt CreateCollectionLambdaExecutionRole.Arn
-      Runtime: python3.6
+      Runtime: python3.8
       Timeout: 10
       Environment: 
         Variables: 
@@ -250,7 +250,7 @@ Resources:
         Key: auto-check-in-app/v1.0.0/rekognize-face-lambda.zip
       Handler: function.lambda_handler
       Role: !GetAtt RekognizeFaceLambdaExecutionRole.Arn
-      Runtime: python3.6
+      Runtime: python3.8
       Timeout: 10
       Environment:
         Variables:
