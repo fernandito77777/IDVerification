@@ -116,7 +116,7 @@ Resources:
         Bucket: !Sub "solutions-${AWS::Region}"
         Key: auto-check-in-app/v1.0.0/index-face-lambda.zip
       Handler: function.lambda_handler
-      Runtime: python3.6
+      Runtime: python3.8
       Role: !GetAtt IndexFaceLambdaExecutionRole.Arn
       Timeout: 10
       Environment:
